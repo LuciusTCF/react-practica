@@ -6,7 +6,11 @@ import "../css/carousel.css";
 
 const Carousel = () => {
   return (
-    <div id="carouselExampleFade" className="carousel slide carousel-fade">
+    <div
+      id="carouselExampleFade"
+      className="carousel slide carousel-fade"
+      data-bs-ride="carousel"
+    >
       <div className="carousel-inner container-carousel">
         <div className="carousel-item active">
           <img src={imagen1} className="d-block w-100" alt="CyberPunk 2077" />

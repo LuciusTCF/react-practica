@@ -5,7 +5,7 @@ const AdminScreen = () => {
     <div className="container">
       <div className="row">
         <div className="col">
-          <h1>Administrador</h1>
+          <h1>Administrador 👍</h1>
         </div>
       </div>
     </div>

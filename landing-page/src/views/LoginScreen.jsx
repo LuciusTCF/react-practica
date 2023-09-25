@@ -20,14 +20,14 @@ const LoginScreen = ({ setEstadoLogin }) => {
     setFormValues({ ...formValues, [e.target.name]: e.target.value });
   };
 
-  //   const cosas = ["Papeles", "Coputadoras", "Mesas"];
+  //   const cosas = ["Papeles", "Computadoras", "Mesas"];
 
   //   const cosasNuevas = [];
 
   //   cosasNuevas = cosas;
 
-  //   //Operador spread
-  //   cosasNuevas = [...cosas, "Sillas", "Vasos"];
+  //   //operador spread
+  //   cosasNuevas = [...cosas, "sillas", "vasos"];
   const handleSubmit = (e) => {
     e.preventDefault();
 
@@ -36,7 +36,7 @@ const LoginScreen = ({ setEstadoLogin }) => {
       setEstadoLogin(true);
       navigate("/admin");
     } else {
-      alert("Correo o contraseña incorrectos");
+      alert("Correo y contraseña incorrectos 😭");
     }
   };
 

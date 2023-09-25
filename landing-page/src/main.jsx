@@ -17,9 +17,9 @@ ReactDOM.createRoot(document.getElementById("root")).render(
 //     setTimeout(() => {
 //       informe = true;
 //       if (informe) {
-//         resolve("Recibimos el informe.");
+//         resolve("Recibimos el informe 😍");
 //       } else {
-//         reject("ERROR!!");
+//         reject("ERROR!!😭");
 //       }
 //     }, 2000);
 //   });
@@ -32,9 +32,9 @@ ReactDOM.createRoot(document.getElementById("root")).render(
 //HTTP
 
 //GET Traer información del server
-//POST Guardar información en el server
+//POST guardar información en el server
 //PUT Actualizar infromación en el server
-//DELETE Borrar información del server
+//DELETE Borrar datos del server
 
 // fetch(
 //   "https://api.openweathermap.org/data/2.5/weather?lat=-26,78&lon=-65,23&units=metric&appid=e3e500cbb8977b4c121b9a50e5f059a1"
