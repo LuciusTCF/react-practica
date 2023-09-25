@@ -1,0 +1,9 @@
+.icon-tiempo {
+  width: 30px;
+  border-radius: 50%;
+}
+
+.active {
+  color: red;
+  font-weight: bold;
+}
